@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h2.titulo{
+    border-left: solid 6px #18A0FB;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding-left: 10px;
+    size: 24px;
+    text-transform: unset;
+
+}
+.link{
+    color: #18A0FB;
+    text-decoration: none;
+}
+.link:hover{
+    color: #0f71b3;
+    text-decoration: none;
+}
+
+.bg-menu{
+    background-color: #424242;
+}
+.submenu{
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+    text-align: center;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+.footer{
+    color: #424242;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 25px;
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+    background-color:#c9c9c9; /*rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;*/
+}
+.texto-color{
+    color: #18A0FB;
+}
+
+.text-lef{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+
+/*
+Color fondo menu encabezado: #424242
+Color de fondo footer: #F0F1F1
+fuente: light - 300
+*/
